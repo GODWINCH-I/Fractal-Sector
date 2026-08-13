@@ -16,20 +16,20 @@
 #  - type: SizeAttribute
 #    tall: true
 #
-#- type: trait
-#  id: Short
-#  name: trait-short-name
-#  category: Height
-#  cost: 1
-#  whitelist:
-#    components:
-#      - ShortWhitelist
-#  blacklist:
-#    components:
-#      - SizeAttribute
-#  components:
-#  - type: SizeAttribute
-#    short: true
+- type: trait
+  id: Short
+  name: trait-short-name
+  category: Height
+  cost: 1
+  whitelist:
+    components:
+      - ShortWhitelist
+  blacklist:
+    components:
+      - SizeAttribute
+  components:
+  - type: SizeAttribute
+    short: true
 
 - type: trait
   id: Fluffy

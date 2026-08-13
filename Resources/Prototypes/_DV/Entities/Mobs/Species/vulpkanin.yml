@@ -118,6 +118,8 @@
     density: 140
     pseudoItem: true
     cosmeticOnly: false
+    shape: # ~half of a duffel bag's grid (7,4) so 2 Short entities fit stacked in one; leaves 1 row free in a regular backpack (6,3)
+    - 0,0,6,2
   - type: TallWhitelist
     scale: 1.2
   # End Frontier
